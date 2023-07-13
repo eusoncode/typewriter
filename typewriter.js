@@ -10,5 +10,5 @@ for (const char of sentence) {
 }
 
 setTimeout(() => {  
-  console.log(' /n');
+  process.stdout.write('\n');
 }, delay);
